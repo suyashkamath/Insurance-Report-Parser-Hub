@@ -26,6 +26,10 @@ const companyUrls = {
   HDFC: {
     image: 'https://hdfc-image-report.vercel.app',
     excel: 'https://hdfc-excel-report.vercel.app'
+  },
+  Chola: {
+    image: 'https://chola-image-report.vercel.app',
+    excel: 'https://chola-excel-report.vercel.app'
   }
 };
 
