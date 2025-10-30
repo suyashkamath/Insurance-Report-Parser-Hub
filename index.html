@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Insurance Report Parser Hub</title>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🏢 Insurance Report Parser Hub</h1>
+      <p>Select a company and file type to process your report document</p>
+    </header>
+
+    <div class="card">
+      <div class="form-group">
+        <label for="company">Select Insurance Company</label>
+        <select id="company">
+          <option value="">-- Choose a Company --</option>
+          <option value="Tata">Tata</option>
+          <option value="Digit">Digit</option>
+          <option value="ICICI">ICICI</option>
+          <option value="Reliance">Reliance</option>
+          <option value="Future">Future</option>
+          <option value="HDFC">HDFC</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>File Type</label>
+        <div class="file-type-selector">
+          <button class="file-type-btn active" data-type="image">
+            <i data-lucide="image"></i> Image
+          </button>
+          <button class="file-type-btn" data-type="excel">
+            <i data-lucide="file-spreadsheet"></i> Excel
+          </button>
+        </div>
+      </div>
+
+      <button class="proceed-btn" id="proceedBtn">
+        <i data-lucide="arrow-right"></i> Proceed to Parser
+      </button>
+    </div>
+
+    <!-- <div class="card">
+      <h2>Deployed Company Parsers</h2>
+      <table class="company-table">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Image Parser</th>
+            <th>Excel Parser</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Company">Tata</td>
+            <td data-label="Image"><a href="https://tata-image-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+            <td data-label="Excel"><a href="https://tata-excel-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+          </tr>
+          <tr>
+            <td data-label="Company">Digit</td>
+            <td data-label="Image"><a href="https://digit-image-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+            <td data-label="Excel"><a href="https://digit-excel-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+          </tr>
+          <tr>
+            <td data-label="Company">ICICI</td>
+            <td data-label="Image"><a href="https://icici-image-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+            <td data-label="Excel"><a href="https://icici-excel-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+          </tr>
+          <tr>
+            <td data-label="Company">Reliance</td>
+            <td data-label="Image"><a href="https://reliance-image-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+            <td data-label="Excel"><a href="https://reliance-excel-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+          </tr>
+          <tr>
+            <td data-label="Company">Future</td>
+            <td data-label="Image"><a href="https://future-image-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+            <td data-label="Excel"><a href="https://future-excel-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+          </tr>
+          <tr>
+            <td data-label="Company">HDFC</td>
+            <td data-label="Image"><a href="https://hdfc-image-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+            <td data-label="Excel"><a href="https://hdfc-excel-report.vercel.app" class="link" target="_blank"><i data-lucide="external-link" class="icon"></i> Open</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div> -->
+  </div>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
