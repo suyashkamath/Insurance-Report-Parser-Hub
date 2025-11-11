@@ -30,6 +30,10 @@ const companyUrls = {
   Chola: {
     image: 'https://chola-image-report.vercel.app',
     excel: 'https://chola-excel-report.vercel.app'
+  },
+    Bajaj: {
+    image: 'https://bajaj-image-report.vercel.app',
+    excel: 'https://bajaj-excel-report.vercel.app'
   }
 };
 
