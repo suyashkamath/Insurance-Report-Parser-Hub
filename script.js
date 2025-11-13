@@ -38,6 +38,14 @@ const companyUrls = {
   Royal:{
     image:'https://royal-image-report.vercel.app',
     excel:'https://royal-excel-report.vercel.app'
+  },
+  SBI:{
+    image:'https://sbi-image-report.vercel.app',
+    excel:'https://sbi-excel-report.vercel.app'
+  },
+  Zuno:{
+    image:'https://zuno-image-report.vercel.app',
+    excel:'https://zuno-excel-report.vercel.app'
   }
 };
 
