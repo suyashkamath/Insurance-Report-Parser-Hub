@@ -34,6 +34,10 @@ const companyUrls = {
     Bajaj: {
     image: 'https://bajaj-image-report.vercel.app',
     excel: 'https://bajaj-excel-report.vercel.app'
+  },
+  Royal:{
+    image:'https://royal-image-report.vercel.app',
+    excel:'https://royal-excel-report.vercel.app'
   }
 };
 
